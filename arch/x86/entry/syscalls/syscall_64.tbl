@@ -340,6 +340,11 @@
 331	common	pkey_free		sys_pkey_free
 332	common	statx			sys_statx
 333	common	hello			sys_hello
+334	common	set_weight		sys_set_weight
+335	common	get_weight		sys_get_weight
+336	common	get_leaf_children_sum		sys_get_leaf_children_sum
+337	common	heaviest_ancestor		sys_heaviest_ancestor
+
 #
 # x32-specific system call numbers start at 512 to avoid cache impact
 # for native 64-bit operation.
