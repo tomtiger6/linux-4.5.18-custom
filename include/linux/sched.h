@@ -579,6 +579,7 @@ struct task_struct {
 	/* Per task flags (PF_*), defined further below: */
 	unsigned int			flags;
 	unsigned int			ptrace;
+	int 					weight;
 
 #ifdef CONFIG_SMP
 	struct llist_node		wake_entry;

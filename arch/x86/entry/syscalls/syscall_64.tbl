@@ -343,7 +343,7 @@
 334	common	set_weight		sys_set_weight
 335	common	get_weight		sys_get_weight
 336	common	get_leaf_children_sum		sys_get_leaf_children_sum
-337	common	heaviest_ancestor		sys_heaviest_ancestor
+337	common	get_heaviest_ancestor		sys_get_heaviest_ancestor
 
 #
 # x32-specific system call numbers start at 512 to avoid cache impact
