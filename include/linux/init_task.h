@@ -226,6 +226,7 @@ extern struct cred init_cred;
 {									\
 	INIT_TASK_TI(tsk)						\
 	.state		= 0,						\
+	.weight		= 0,						\
 	.stack		= init_stack,					\
 	.usage		= ATOMIC_INIT(2),				\
 	.flags		= PF_KTHREAD,					\
